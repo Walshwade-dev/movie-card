@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie card</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+
+</head>
+<body class="lg:bg-[url('https://shorturl.at/cdvP3')] lg:bg-no-repeat lg:bg-cover bg-[#181028]">
+   <main class="bg-[#33BBC5] max-w-[25rem] border-2  min-h-[45rem] min-[400px]:max-w-[20rem] min-[400px]:mx-auto min-[400px]:rounded-lg sm:my-20">
+        <!-- title section start-->
+        <section class="relative title-section max-w-[25rem] h-[20rem] bg-[url('https://images.alphacoders.com/680/680323.jpg')] bg-cover bg-center  bg-no-repeat min-[400px]:rounded-t-lg">
+            <div class="title-content w-full max-h-[2.5rem] grid grid-cols-2 gap-36 absolute bottom-5">
+                <div class="title-text-container max-h-[2rem] min-w-[10rem] ml-5 text-white font-bold text-xl flex items-center mr-auto  rounded-lg">
+                    <img
+                        class="mx-2 w-8 h-8 drop-shadow-[-13px_25px_146px_27px_rgba(0,0,0,0.82)]" 
+                        src="https://www.freeiconspng.com/uploads/download-png-image-star-png-image-1.png" 
+                        alt="Svg Star Icon" 
+                    />
+                    <p><span>6.8 / 10</p>
+                </div>
+                <div class=" opacity-75 z-20 cursor-pointer">
+                    <img
+                    class="w-14 h-14 mb-0 bg-white rounded-full mr-2 mb-10 " 
+                    src="https://www.freeiconspng.com/uploads/video-play-icon-24.png"
+                    />
+                </div>
+            </div>
+        </section>
+        <!-- title section end-->
+
+        <!-- Hero section start-->
+        <section class="Hero h-[25rem] -mt-16 py-5 px-4">
+            <h1 class="text-xl pt-14 text-[#003185] font-bold">THE GOOD DINOSAUR</h1>
+            <h6 class="text-[11px] font-semibold font-[2px] tracking-tighter">Animation, Adventure, Comedy | 25 November 2015 (USA)</h6>
+            <p class="text-base/9 text-sm tracking-tighter leading-5 ">
+                In a world where dinosaurs and humans live side-by-side, an Apatosaurus named Ario makes an unlikely human friend.
+            </p>
+
+            <div class="hero-image-container">
+                <h3 class="font-bold text-center text-[#003185]">ACTORS</h3>
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="wrapper-holder grid">
+                            <div id="slider-img-1"></div>
+                            <div id="slider-img-2"></div>
+                            <div id="slider-img-3"></div>
+                        </div>
+                    </div>
+                    <div class="button-holder absolute left-24 bottom-[30%] lg:bottom-14 md:bottom-[30%] sm:bottom-[30%]">
+                        <a href="#slider-img-1" class="button"></a>
+                        <a href="#slider-img-2" class="button"></a>
+                        <a href="#slider-img-3" class="button"></a>
+                    </div>
+                </div>
+                    
+            </div>
+        </section>
+        <!-- Hero section end-->
+
+        <!-- footer section start-->
+        <section class="footer bottom-0 pb-14 z-99  w-full h-6 grid grid-cols-2 text-white">
+            <div class="flex flex-col items-center cursor-pointer">
+                <img
+                    class="w-5 h-5 " 
+                    src="https://cdn-icons-png.flaticon.com/128/12221/12221099.png" 
+                />
+                <h4 class="text-xs font-medium">ADD TO WATCHLIST</h4>
+            </div>
+            <div class="flex flex-col items-center cursor-pointer ">
+                <img
+                    class="h-5 w-5 "
+                    src="https://cdn-icons-png.flaticon.com/128/9790/9790561.png" 
+                    alt="Group of people icon, a group of three persons made of a simple " />
+                <h4 class="text-xs font-medium">SEE FULL CAST & CREW </h4>
+            </div>
+        </section>
+        <!-- footer section end-->
+   </main>
+</body>
+</html>
